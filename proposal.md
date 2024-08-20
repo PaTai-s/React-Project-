@@ -27,14 +27,9 @@ This application will use the **Recipe** API. Below are the documentation and sp
 The application will feature the following frontend routes and core features:
 
 * On the `Homepage` page, users can interact with a search bar and 10 default meals. 
-* On the `/instructions` page, users can see a list of ingredients and instructions for the selected meal
-* On the `/instructions/` page, users can ...
+* On the `/searchedmeal` page, users can see a list of ingredients and instructions for the selected meal
+* On the `/meallist` page, users can ...
 
-**Example:**
-- On the `/artworks` page, users can view a grid of all artwork
-- On the `/artworks` page, users can click on a piece of art in the grid, taking them to the details page for that piece of art.
-- On the `/artworks/:artworkId` page, users can view additional details for a single piece of art
-- On the `/` page, users can search for artwork titles related to a search term.
 
 ## 🤔 Stretch User Stories
 
