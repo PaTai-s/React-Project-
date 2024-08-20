@@ -73,7 +73,7 @@ To ensure that we can complete all core features of the application in 1 week, w
 Below, you can find wireframes for our project. Each wireframe shows a different page of our application as well as the key components of the application. Details such as specific text values or images are intentionally not included:
 
 
-    <img width="676" alt="ReactProjectWireframe" src="https://github.com/user-attachments/assets/e68f4c73-ca60-494c-9a32-01f7a3bd379f">
+  <img width="676" alt="ReactProjectWireframe" src="https://github.com/user-attachments/assets/e68f4c73-ca60-494c-9a32-01f7a3bd379f">
 
 
 
