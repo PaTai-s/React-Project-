@@ -1,10 +1,10 @@
-# [Project Name]
+# [PaTai's CookBook]
 
-Created by [team member], [team member], and [team member].
+Created by [Patrick Dacius], and [Taifinkaba Chowdhury].
 
 ## 🚀 Mission statement
 
-Our application, [app name] is for [target audience]. It allows users to [what it does and why audience would use it]
+Our application, [PaTai's CookBook] is for [PaTai's Cookbook is designed for busy professionals and young families seeking quick, delicious, and nutritious meals]. It allows users to [focus on easy-to-follow recipes and caters to those who want to enjoy flavorful dishes without spending hours in the kitchen.]
 
 ## API & React Router
 
