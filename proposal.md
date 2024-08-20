@@ -56,23 +56,22 @@ To ensure that we can complete all core features of the application in 1 week, w
 
 **Day 2**
 - [ ] connect all fetch's to html functionality 
-- [ ] search bar works/ filter based on first letter/ filter based on location
-- [ ] random button for meals
+- [ ] search bar works
+- [ ] make another page for list of meals
 
 **Day 3** (MVP due by the end of the day)
-- [ ] 
 - [ ] Ensure everything runs properly
 - [ ] Css/ style all web pages
 
 **Day 4**
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
+- [ ] make search filter by first letter
+- [ ] make filter by location
+- [ ] make random button with a randomizer for meals(front page)
 
 **Day 5**
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
+- [ ] more css, look mindful, look demure
+- [ ] ...
+- [ ] ...
 
 ## Wireframes of each page in your application
 
