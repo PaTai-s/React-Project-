@@ -1,6 +1,6 @@
 # PaTai's CookBook
 
-Created by [Patrick Dacius], and [Taifinkaba Chowdhury].
+Created by **Patrick Dacius**, and **Taifinkaba Chowdhury**.
 
 ## 🚀 Mission statement
 
@@ -8,39 +8,27 @@ Our application, PaTai's CookBook is for PaTai's Cookbook is designed for busy p
 
 ## API & React Router
 
-This application will use the [name of API] API. Below are the documentation and specific endpoints we intend to use and the front-end pages that will use them.
+This application will use the **Recipe** API. Below are the documentation and specific endpoints we intend to use and the front-end pages that will use them.
 
-- Link to API documentation: [Link goes here]
-- API endpoint #1
-  - Description of endpoint
-  - List of data values used by the endpoint
-- API endpoint #2
-  - Description of endpoint
-  - List of data values used by the endpoint
-- API endpoint #3
-  - Description of endpoint
-  - List of data values used by the endpoint
+- Link to API documentation: ***https://www.themealdb.com/api.php***
+- API endpoint #1 - www.themealdb.com/api/json/v1/1/search.php?s={name of meal}
+  - Description of endpoint: Search for the meal by meal name. 
+  - List of data values used by the endpoint: For each meal, we will retrieve a list of information starting with `id` and `name`
+- API endpoint #2 - www.themealdb.com/api/json/v1/1/list.php?i=list
+  - Description of endpoint: This will display all of the ingredients for the given meal 
+  - List of data values used by the endpoint: for each meal, we will retrieve a list of information regarding the ingredients 
+- API endpoint #3 - /images/media/meals/llcbn01574260722.jpg/preview
+  - Description of endpoint: We will retrieve the image for each meal. 
+  - List of data values used by the endpoint: for each meal, we will retrieve the image for the meal 
 
-[If your API requires an API key, say so here.]
-
-**Example:**
-- https://api.artic.edu/api/v1/artworks
-  - This will fetch an array of artwork objects
-  - For each artwork, I want the `id`, `title`, and `image_id`
-- https://api.artic.edu/api/v1/artworks/{id}
-  - This will fetch a single artwork object
-  - I will use the `id`, `title`, `short_description`, `medium_display`, `place_of_origin` and `image_id`
-- https://api.artic.edu/api/v1/artworks/search?q={query}
-  - This will fetch a list of artworks that relate to the search query
-  - For each artwork, I will use the `id` and `title`
 
 ## 👩‍💻 MVP User Stories & Frontend Routes
 
 The application will feature the following frontend routes and core features:
 
-* On the `/example` page, users can...
-* On the `/example` page, users can...
-* On the `/example` page, users can...
+* On the `Homepage` page, users can interact with a search bar and 10 default meals. 
+* On the `/instructions` page, users can see a list of ingredients and instructions for the selected meal
+* On the `/instructions/` page, users can ...
 
 **Example:**
 - On the `/artworks` page, users can view a grid of all artwork
@@ -52,13 +40,10 @@ The application will feature the following frontend routes and core features:
 
 If time permits, the following stretch features will be implemented in order of priority:
 
-* Users will be able to...
-* Users will be able to...
-* Users will be able to...
+* Users will be able to find a recipe by interacting with a `random recipe` button 
+* Users will be able to find recipes by filtering based on cuisines 
+* Users will be able to see a list of meals based on the first letter typed in the search bar 
 
-**Example:**
-* Users will be able to save and view favorited artworks using local storage
-* Users will be able to change the color scheme of the website from light mode to dark mode
 
 ## 📆 Timeline for reaching MVP in 1 week
 
