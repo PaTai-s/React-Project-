@@ -50,19 +50,19 @@ If time permits, the following stretch features will be implemented in order of 
 To ensure that we can complete all core features of the application in 1 week, we will aim to complete tasks according to the following timeline:
 
 **Day 1**
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
+- [ ] HTML/React wireframe
+- [ ] display 10 default meals on front page
+- [ ] Fetch 3 Api's
 
 **Day 2**
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
+- [ ] connect all fetch's to html functionality 
+- [ ] search bar works/ filter based on first letter/ filter based on location
+- [ ] random button for meals
 
 **Day 3** (MVP due by the end of the day)
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
+- [ ] 
+- [ ] Ensure everything runs properly
+- [ ] Css/ style all web pages
 
 **Day 4**
 - [ ] Ticket description and due date
