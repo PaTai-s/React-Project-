@@ -45,25 +45,50 @@ If time permits, the following stretch features will be implemented in order of 
 To ensure that we can complete all core features of the application in 1 week, we will aim to complete tasks according to the following timeline:
 
 **Day 1**
+- [ ] Used Vite for this project
+- [ ] Used React
+- [ ] Made a fetch to get a single, specific resource
+
+**Day 2**
 - [ ] HTML/React wireframe
 - [ ] display 10 default meals on front page
 - [ ] Fetch 3 Api's
+- [ ] Used React Router for client side routing
+- [ ] Used Context at least once
+- [ ] Made a fetch to get multiple resources
+- [ ] Made a third fetch for whatever you want
+- [ ] There is a main element on each page
+- [ ] There is a nav element on each page
+- [ ] The nav contains a ul of links
+- [ ] At least one h1 element on each page
+- [ ] At least one section is used properly on each page
 
-**Day 2**
+**Day 3**
 - [ ] connect all fetch's to html functionality 
 - [ ] search bar works
 - [ ] make another page for list of meals
+- [ ] Heading tag hierarchy is always correct
+- [ ] div is never used in place of ul and li
+- [ ] Every form input has a proper label
+- [ ] Each form is aria labelled properly to make it a landmark
+- [ ] Every img has a unique alt (if applicable, get points if no image)
+- [ ] All buttons look like buttons, all links look like links
+- [ ] Created at least 3 components
+- [ ] Have all components in their own files (1 export per file)
+- [ ] Handled form submission event properly with React syntax
 
-**Day 3** (MVP due by the end of the day)
+**Day 4** (MVP due by the end of the day)
 - [ ] Ensure everything runs properly
 - [ ] Css/ style all web pages
+- [ ] At no point did you ever use any vanilla DOM JS methods
+- [ ] Rendered an array of items to the screen at least once
 
-**Day 4**
+**Day 5**
 - [ ] make search filter by first letter
 - [ ] make filter by location
 - [ ] make random button with a randomizer for meals(front page)
 
-**Day 5**
+**Day 6**
 - [ ] more css, look mindful, look demure
 - [ ] ...
 - [ ] ...
