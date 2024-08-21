@@ -45,9 +45,9 @@ If time permits, the following stretch features will be implemented in order of 
 To ensure that we can complete all core features of the application in 1 week, we will aim to complete tasks according to the following timeline:
 
 **Day 1**
-- [ ] Used Vite for this project
-- [ ] Used React
-- [ ] Made a fetch to get a single, specific resource
+- [ x ] Used Vite for this project
+- [ x ] Used React
+- [ x ] Made a fetch to get a single, specific resource
 
 **Day 2**
 - [ ] HTML/React wireframe
