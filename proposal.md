@@ -27,8 +27,8 @@ This application will use the **Recipe** API. Below are the documentation and sp
 The application will feature the following frontend routes and core features:
 
 * On the `Homepage` page, users can interact with a search bar and 10 default meals. 
-* On the `/searchedmeal` page, users can see a list of ingredients and instructions for the selected meal
-* On the `/meallist` page, users can ...
+* On the `/search` page, users can see a list of ingredients and instructions for the selected meal
+* On the `/meals` page, users can ...
 
 
 ## 🤔 Stretch User Stories
