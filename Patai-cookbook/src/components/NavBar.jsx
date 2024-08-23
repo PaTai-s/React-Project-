@@ -20,6 +20,7 @@ const Navbar = () => {
             <Link to="/" className="site-title">
                 PaTais CookBook
             </Link>
+
             <ul>
                 <Link to='/home'>Home</Link>
                 <Link to='/meals'>Meals</Link>
@@ -27,6 +28,15 @@ const Navbar = () => {
 
             {/* search button */}
             {/* <form onSubmit={handleSubmit}>
+=======
+        <ul>
+            <Link to='/'>Home</Link>
+            <Link to='/meals'>Meals</Link>
+        </ul>
+        
+        {/* search button */}
+        <form onSubmit={handleSubmit}>
+
             <input type="text" value={searchTerm} onChange={handleChange} />
             <button type="submit">Search</button>
             </form> */}
