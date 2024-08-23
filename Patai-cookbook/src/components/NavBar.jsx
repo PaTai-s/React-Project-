@@ -21,7 +21,7 @@ const Navbar = () => {
             PaTais CookBook
             </Link>
         <ul>
-            <Link to='/home'>Home</Link>
+            <Link to='/'>Home</Link>
             <Link to='/meals'>Meals</Link>
         </ul>
         
