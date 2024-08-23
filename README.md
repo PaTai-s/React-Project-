@@ -128,19 +128,19 @@ See the [Agile Methodology Reflection document](./agile-methodology-reflection.m
 ## Tech Checklist
 
 ### Project Fundamentals
-- [ ] Used Vite for this project
-- [ ] Used React
-- [ ] Used React Router for client side routing
-- [ ] Used Context at least once
-- [ ] Made a fetch to get multiple resources
-- [ ] Made a fetch to get a single, specific resource
+- [ x ] Used Vite for this project
+- [ x ] Used React
+- [ x ] Used React Router for client side routing
+- [ x ] Used Context at least once
+- [ x ] Made a fetch to get multiple resources
+- [ x ] Made a fetch to get a single, specific resource
 - [ ] Made a third fetch for whatever you want
 - [ ] **Bonus: Were able to get it deployed in a functional state**
 
 
 ### React Fundamentals
-- [ ] Created at least 3 components
-- [ ] Have all components in their own files (1 export per file)
+- [ x ] Created at least 3 components
+- [ x ] Have all components in their own files (1 export per file)
 - [ ] Passed props to a component at least 3 times
   - [ ] 1st check box
   - [ ] 2nd check box
@@ -160,7 +160,7 @@ See the [Agile Methodology Reflection document](./agile-methodology-reflection.m
 - [ ] Rendered an array of items to the screen at least once
 
 ### Advanced React
-- [ ] Used the `useContext` hook at least once
+- [ x ] Used the `useContext` hook at least once
 - [ ] Had at least 2 different pages in the application
 - [ ] Used the proper `Link` components to navigate between pages
 - [ ] Used the `useParams` hook at least once

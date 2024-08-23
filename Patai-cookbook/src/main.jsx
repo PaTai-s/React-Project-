@@ -5,9 +5,7 @@ import './index.css'
 import MealProvider from './Context /MealProvider.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
-
   <MealProvider>
     <BrowserRouter>
       <App />

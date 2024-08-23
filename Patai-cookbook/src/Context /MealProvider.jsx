@@ -9,13 +9,17 @@ const MealProvider = ({ children }) => {
 
     useEffect(() => {
         const doFetch = async () => {
-            const [data, error] = await fetchData(`https://www.themealdb.com/api/json/v1/1/search.php?s=`)
-            console.log(data)
-            if (data) setMeals(data)
+            const [data, error] = await fetchData('https://www.themealdb.com/api/json/v1/1/search.php?s=');
+            // console.log(data)
+            // if (data) setMeals(data['meals'])
+            if (data) setMeals(data.meals)
             if (error) setError(error.message)
         }
         doFetch()
     }, [])
+    useEffect(() => {
+        console.log(allMeals)
+    }, [allMeals])
 
 
 
