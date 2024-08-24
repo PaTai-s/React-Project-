@@ -35,11 +35,11 @@ const Navbar = () => {
         </ul>
         
         {/* search button */}
-        <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
 
-            <input type="text" value={searchTerm} onChange={handleChange} />
-            <button type="submit">Search</button>
-            </form> */}
+                <input type="text" value={searchTerm} onChange={handleChange} />
+                <button type="submit">Search</button>
+            </form>
         </nav>
     )
 };
