@@ -1,17 +1,17 @@
-import { React, useState } from 'react';
+import { React, useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
+import MealContext from "../Context /MealContext";
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
     // search bar with useState
-    const [searchTerm, setSearchTerm] = useState('');
-    const handleChange = (event) => {
-        setSearchTerm(event.target.value);
-    }
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        // handle search logic here
-        console.log(`Searching for ${searchTerm}...`);
-    }
+    const [query, setSearch] = useState('');
+    const navigate = useNavigate();
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        navigate(`/search/${query}`);
+    };
     // search button code above
 
 
@@ -20,15 +20,6 @@ const Navbar = () => {
             <Link to="/" className="site-title">
                 PaTais CookBook
             </Link>
-
-            <ul>
-                <Link to='/home'>Home</Link>
-                <Link to='/meals'>Meals</Link>
-            </ul>
-
-            {/* search button */}
-            {/* <form onSubmit={handleSubmit}>
-=======
         <ul>
             <Link to='/'>Home</Link>
             <Link to='/meals'>Meals</Link>
@@ -36,10 +27,15 @@ const Navbar = () => {
         
         {/* search button */}
         <form onSubmit={handleSubmit}>
-
-            <input type="text" value={searchTerm} onChange={handleChange} />
+            <label htmlFor="MealSearch">Search for a recipe </label>
+            <input
+                type="text"
+                id="MealSearch"
+                value={query}
+                onChange={(e) => setSearch(e.target.value)}
+            />
             <button type="submit">Search</button>
-            </form> */}
+        </form>
         </nav>
     )
 };
