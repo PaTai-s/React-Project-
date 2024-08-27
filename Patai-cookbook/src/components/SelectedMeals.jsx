@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 const SelectedMeals = () => {
-  const { idMeal } = useParams(); // Get meal ID from URL
+  const { idMeal } = useParams(); 
   const [meal, setMeal] = useState(null);
 
   useEffect(() => {
@@ -15,7 +15,6 @@ const SelectedMeals = () => {
         console.error(error);
       }
     };
-
     fetchMealDetails();
   }, [idMeal]);
 

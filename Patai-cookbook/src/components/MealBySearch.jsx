@@ -1,20 +1,15 @@
-import { useState, useEffect, useContext } from "react";
+import { useState } from "react";
 import fetchData from "../utils/fetchData";
 import React from "react";
-import MealContext from "../Context /MealContext";
+import { useNavigate } from "react-router-dom";
 
 const MealBySearch = () => {
     const [query, setSearch] = useState('');
-    const [error, setError] = useState('')
-    const { setMeals } = useContext(MealContext)
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
-
-        const [data, error] = await fetchData(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
-        if (data) setMeals(data.meals);
-        if (error) setError(error?.message || 'An error occurred');
-
+        e.preventDefault();  
+        navigate(`/search/${query}`);
     };
 
     return (
@@ -26,11 +21,10 @@ const MealBySearch = () => {
                 value={query}
                 onChange={(e) => setSearch(e.target.value)}
             />
-            <button onClick={handleSubmit} type="submit">Search</button>
+            <button type="submit">Search</button>
         </form>
     );
 };
-
 
 
 export default MealBySearch
