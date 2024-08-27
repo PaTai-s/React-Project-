@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import React from "react"
 import MealBySearch from "./MealBySearch";
 import fetchData from "../utils/fetchData";
+
 import RandomButton from "./RandomButton";
+
 
 
 const Home = () => {
@@ -28,7 +30,10 @@ const Home = () => {
     <div>
         <h1>PaTai's CookBook</h1>
         <MealBySearch />
+
+
         <RandomButton />
+
         <div className="random-meals">
             {randomMeals.map(meal => (
             <div key={meal.idMeal} className="meal-card">
