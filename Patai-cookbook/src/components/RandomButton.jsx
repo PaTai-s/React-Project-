@@ -14,7 +14,7 @@ const RandomButton = () => {
             console.error(error)
         }
     }
-
+// idk we just need this 
     const handleSubmit=(e)=>{
         e.preventDefault();
         fetchRandomMeal();
