@@ -1,4 +1,7 @@
+
 import { Route, Routes } from 'react-router-dom';
+
+
 import './App.css';
 import Navbar from './components/NavBar';
 import Home from './components/Home';
@@ -7,6 +10,12 @@ import SelectedMeals from './components/SelectedMeals';
 import CollectionOfMeals from './components/CollectionOfMeals';
 import SearchResults from './components/SearchResults';
 import MealDetails from './components/MealDetails';
+
+
+
+
+
+
 
 function App() {
   return (
