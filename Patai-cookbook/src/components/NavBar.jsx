@@ -20,22 +20,22 @@ const Navbar = () => {
             <Link to="/" className="site-title">
                 PaTais CookBook
             </Link>
-        <ul>
-            <Link to='/'>Home</Link>
-            <Link to='/meals'>Meals</Link>
-        </ul>
-        
-        {/* search button */}
-        <form onSubmit={handleSubmit}>
-            <label htmlFor="MealSearch">Search for a recipe </label>
-            <input
-                type="text"
-                id="MealSearch"
-                value={query}
-                onChange={(e) => setSearch(e.target.value)}
-            />
-            <button type="submit">Search</button>
-        </form>
+            <ul className='nav-bar-options'>
+                <Link to='/'>Home</Link>
+                <Link to='/meals'>Meals</Link>
+            </ul>
+
+            {/* search button */}
+            <form onSubmit={handleSubmit}>
+                <label htmlFor="MealSearch">Search for a recipe </label>
+                <input
+                    type="text"
+                    id="MealSearchNav"
+                    value={query}
+                    onChange={(e) => setSearch(e.target.value)}
+                />
+                <button type="submit">Search</button>
+            </form>
         </nav>
     )
 };

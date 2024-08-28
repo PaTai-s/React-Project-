@@ -27,25 +27,26 @@ const Home = () => {
 
 
     return (
-    <div>
-        <h1>PaTai's CookBook</h1>
-        <MealBySearch />
+        <div>
+            <h1> Welcome to PaTai's CookBook! </h1>
+            <h3 className="welcome-prompt"> Type in a meal below & find a delicious recipe </h3>
+            <MealBySearch />
 
+            <h4 className="random-prompt">Not sure what to cook? Click the button below for a random meal!</h4>
+            <RandomButton />
 
-        <RandomButton />
-
-        <div className="random-meals">
-            {randomMeals.map(meal => (
-            <div key={meal.idMeal} className="meal-card">
-                <Link to={`/recipe/${meal.idMeal}`}>
-                    <img src={meal.strMealThumb} alt={meal.strMeal} />
-                    <h3>{meal.strMeal}</h3>
-                    </Link>
-                </div>
-            ))}
+            <div className="random-meals">
+                {randomMeals.map(meal => (
+                    <div key={meal.idMeal} className="meal-card">
+                        <Link to={`/recipe/${meal.idMeal}`}>
+                            <img src={meal.strMealThumb} alt={meal.strMeal} />
+                            <h3>{meal.strMeal}</h3>
+                        </Link>
+                    </div>
+                ))}
+            </div>
         </div>
-     </div>
-     );
+    );
 }
 
 

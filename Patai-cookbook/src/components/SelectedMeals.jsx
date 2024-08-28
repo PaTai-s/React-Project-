@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 const SelectedMeals = () => {
-  const { idMeal } = useParams(); 
+  const { idMeal } = useParams();
   const [meal, setMeal] = useState(null);
+
 
   useEffect(() => {
     const fetchMealDetails = async () => {
@@ -19,6 +20,9 @@ const SelectedMeals = () => {
   }, [idMeal]);
 
   if (!meal) return <div>Loading...</div>;
+
+
+
 
   return (
     <div className="selected-meal">

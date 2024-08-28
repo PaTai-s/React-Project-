@@ -8,20 +8,20 @@ const MealBySearch = () => {
     const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
-        e.preventDefault();  
+        e.preventDefault();
         navigate(`/search/${query}`);
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label htmlFor="MealSearch">Search for a recipe </label>
+        <form onSubmit={handleSubmit} className="forms">
+            <label htmlFor="MealSearch"> </label>
             <input
                 type="text"
                 id="MealSearch"
                 value={query}
                 onChange={(e) => setSearch(e.target.value)}
             />
-            <button type="submit">Search</button>
+            <button className="search-button" type="submit">Search</button>
         </form>
     );
 };

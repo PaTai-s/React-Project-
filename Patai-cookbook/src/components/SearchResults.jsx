@@ -30,9 +30,9 @@ const SearchResults = () => {
                 {meals && meals.length > 0 ? (
                     meals.map(meal => (
                         <div key={meal.idMeal} className="meal-card">
+                            <h3>{meal.strMeal}</h3>
                             <Link to={`/recipe/${meal.idMeal}`}>
                                 <img src={meal.strMealThumb} alt={meal.strMeal} />
-                                <h3>{meal.strMeal}</h3>
                             </Link>
                         </div>
                     ))
